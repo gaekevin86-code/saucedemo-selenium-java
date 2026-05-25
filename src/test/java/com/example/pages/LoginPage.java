@@ -1,6 +1,7 @@
 package com.example.pages;
 
 import com.example.core.Constants;
+import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,6 +20,7 @@ public class LoginPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.DEFAULT_TIMEOUT));
     }
 
+    @Step("Login with username='{user}' and password='{pass}'")
     public LoginPage loginAs(String user, String pass) {
         wait.until(ExpectedConditions.elementToBeClickable(loginButton));
         driver.findElement(usernameField).clear();
@@ -29,6 +31,7 @@ public class LoginPage {
         return this;
     }
 
+    @Step("Get error message")
     public String getError() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage)).getText();
     }

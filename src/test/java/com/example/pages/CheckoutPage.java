@@ -1,6 +1,7 @@
 package com.example.pages;
 
 import com.example.core.Constants;
+import io.qameta.allure.Step;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -25,39 +26,47 @@ public class CheckoutPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.DEFAULT_TIMEOUT));
     }
 
+    @Step("Fill checkout info: firstName='{firstName}', lastName='{lastName}', postalCode='{postalCode}'")
     public CheckoutPage fillInfo(String firstName, String lastName, String postalCode) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(firstNameField)).sendKeys(firstName);
+        wait.until(ExpectedConditions.elementToBeClickable(firstNameField)).sendKeys(firstName);
         driver.findElement(lastNameField).sendKeys(lastName);
         driver.findElement(postalCodeField).sendKeys(postalCode);
         driver.findElement(continueButton).click();
         return this;
     }
 
+    @Step("Click Finish button to complete order")
     public void finish() {
         wait.until(ExpectedConditions.elementToBeClickable(finishButton)).click();
     }
 
+    @Step("Complete full checkout")
     public void checkout(String firstName, String lastName, String postalCode) {
         fillInfo(firstName, lastName, postalCode);
         finish();
     }
 
+    @Step("Get order complete header text")
     public String completeHeader() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(completeHeader)).getText();
     }
 
+    @Step("Get error message")
     public String getError() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage)).getText();
     }
 
+    @Step("Get subtotal label")
     public String getSubtotal() {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(subtotalLabel)).getText();
     }
 
+    @Step("Get tax label")
     public String getTax() {
         return driver.findElement(taxLabel).getText();
     }
 
+    @Step("Get total label")
     public String getTotal() {
         return driver.findElement(totalLabel).getText();
     }

@@ -10,6 +10,7 @@
     <selenium.version>4.27.0</selenium.version>
     <testng.version>7.10.2</testng.version>
     <allure.version>2.27.0</allure.version>
+    <aspectj.version>1.9.22</aspectj.version>
   </properties>
 
   <dependencies>
@@ -36,6 +37,12 @@
       <version>${allure.version}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>${aspectj.version}</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -48,6 +55,9 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <argLine>
+            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+          </argLine>
           <systemPropertyVariables>
             <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
           </systemPropertyVariables>
