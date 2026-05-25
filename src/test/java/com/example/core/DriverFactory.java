@@ -26,9 +26,14 @@ public class DriverFactory {
     public static WebDriver getDriver() { return DRIVER.get(); }
 
     public static void createDriver(String browser) {
-        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
-        int halfW = screen.width / 2;
-        int fullH = screen.height - 80;
+        int halfW = 960, fullH = 1000;
+        if (!HEADLESS) {
+            try {
+                Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+                halfW = screen.width / 2;
+                fullH = screen.height - 80;
+            } catch (java.awt.HeadlessException ignored) {}
+        }
 
         WebDriver raw;
         if ("firefox".equalsIgnoreCase(browser)) {
