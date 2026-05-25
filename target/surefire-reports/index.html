@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" class="navigator-link">
+              <span class="suite-name border-passed">SauceDemo Parallel Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemo_Parallel_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemo_Parallel_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemo_Parallel_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemo_Parallel_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemo_Parallel_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemo_Parallel_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemo_Parallel_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" class="hide-methods passed suite-SauceDemo_Parallel_Suite"> (hide)</a> <!-- hide-methods passed suite-SauceDemo_Parallel_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" class="show-methods passed suite-SauceDemo_Parallel_Suite"> (show)</a> <!-- show-methods passed suite-SauceDemo_Parallel_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemo_Parallel_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="addingItemsUpdatesBadgeCount">addingItemsUpdatesBadgeCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="addingItemsUpdatesBadgeCount">addingItemsUpdatesBadgeCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="cartPageShowsCorrectItems">cartPageShowsCorrectItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="cartPageShowsCorrectItems">cartPageShowsCorrectItems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutEmptyFormShowsFirstNameError">checkoutEmptyFormShowsFirstNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutEmptyFormShowsFirstNameError">checkoutEmptyFormShowsFirstNameError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutMissingLastNameShowsError">checkoutMissingLastNameShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutMissingLastNameShowsError">checkoutMissingLastNameShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutMissingPostalCodeShowsError">checkoutMissingPostalCodeShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="checkoutMissingPostalCodeShowsError">checkoutMissingPostalCodeShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="continueShoppingReturnsToInventory">continueShoppingReturnsToInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="continueShoppingReturnsToInventory">continueShoppingReturnsToInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="fullCheckoutFlowSucceeds">fullCheckoutFlowSucceeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="fullCheckoutFlowSucceeds">fullCheckoutFlowSucceeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)">invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)">invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(, secret_sauce, Username is required)">invalidLoginShouldShowError(, secret_sauce, Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)">invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(standard_user, , Password is required)">invalidLoginShouldShowError(standard_user, , Password is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)">invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)">invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)">invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(standard_user, , Password is required)">invalidLoginShouldShowError(standard_user, , Password is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="invalidLoginShouldShowError(, secret_sauce, Username is required)">invalidLoginShouldShowError(, secret_sauce, Username is required)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="performanceGlitchUserCanLogin">performanceGlitchUserCanLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="performanceGlitchUserCanLogin">performanceGlitchUserCanLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="productSortingWorks">productSortingWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="productSortingWorks">productSortingWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="removeItemFromCartReducesCount">removeItemFromCartReducesCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="removeItemFromCartReducesCount">removeItemFromCartReducesCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="removingItemDecrementsBadge">removingItemDecrementsBadge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.CheckoutTest" class="method navigator-link" hash-for-method="removingItemDecrementsBadge">removingItemDecrementsBadge</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="validLoginShouldOpenInventory">validLoginShouldOpenInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Parallel_Suite" title="com.example.tests.LoginTest" class="method navigator-link" hash-for-method="validLoginShouldOpenInventory">validLoginShouldOpenInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemo_Parallel_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemo_Parallel_Suite" class="panel SauceDemo_Parallel_Suite">
+          <div class="suite-SauceDemo_Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)">
+                  </a> <!-- invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(locked_out_user,secret_sauce,Sorry, this user has been locked out)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)">
+                  </a> <!-- invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(invalid_user,secret_sauce,Username and password do not match)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(, secret_sauce, Username is required)">
+                  </a> <!-- invalidLoginShouldShowError(, secret_sauce, Username is required) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(,secret_sauce,Username is required)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)">
+                  </a> <!-- invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(standard_user,wrong_password,Username and password do not match)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(standard_user, , Password is required)">
+                  </a> <!-- invalidLoginShouldShowError(standard_user, , Password is required) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(standard_user,,Password is required)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)">
+                  </a> <!-- invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(invalid_user,secret_sauce,Username and password do not match)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)">
+                  </a> <!-- invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(locked_out_user,secret_sauce,Sorry, this user has been locked out)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)">
+                  </a> <!-- invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(standard_user,wrong_password,Username and password do not match)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(standard_user, , Password is required)">
+                  </a> <!-- invalidLoginShouldShowError(standard_user, , Password is required) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(standard_user,,Password is required)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginShouldShowError(, secret_sauce, Username is required)">
+                  </a> <!-- invalidLoginShouldShowError(, secret_sauce, Username is required) -->
+                  <span class="method-name">invalidLoginShouldShowError</span>
+                  <span class="parameters">(,secret_sauce,Username is required)</span>
+                  <em>
+(Invalid credentials show descriptive error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performanceGlitchUserCanLogin">
+                  </a> <!-- performanceGlitchUserCanLogin -->
+                  <span class="method-name">performanceGlitchUserCanLogin</span>
+                  <em>
+(Performance glitch user eventually logs in successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="performanceGlitchUserCanLogin">
+                  </a> <!-- performanceGlitchUserCanLogin -->
+                  <span class="method-name">performanceGlitchUserCanLogin</span>
+                  <em>
+(Performance glitch user eventually logs in successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginShouldOpenInventory">
+                  </a> <!-- validLoginShouldOpenInventory -->
+                  <span class="method-name">validLoginShouldOpenInventory</span>
+                  <em>
+(Standard user logs in and lands on inventory page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginShouldOpenInventory">
+                  </a> <!-- validLoginShouldOpenInventory -->
+                  <span class="method-name">validLoginShouldOpenInventory</span>
+                  <em>
+(Standard user logs in and lands on inventory page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Parallel_Suite-class-passed -->
+          <div class="suite-SauceDemo_Parallel_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.tests.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingItemsUpdatesBadgeCount">
+                  </a> <!-- addingItemsUpdatesBadgeCount -->
+                  <span class="method-name">addingItemsUpdatesBadgeCount</span>
+                  <em>
+(Adding items updates cart badge count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingItemsUpdatesBadgeCount">
+                  </a> <!-- addingItemsUpdatesBadgeCount -->
+                  <span class="method-name">addingItemsUpdatesBadgeCount</span>
+                  <em>
+(Adding items updates cart badge count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartPageShowsCorrectItems">
+                  </a> <!-- cartPageShowsCorrectItems -->
+                  <span class="method-name">cartPageShowsCorrectItems</span>
+                  <em>
+(Cart page shows correct items and their names)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartPageShowsCorrectItems">
+                  </a> <!-- cartPageShowsCorrectItems -->
+                  <span class="method-name">cartPageShowsCorrectItems</span>
+                  <em>
+(Cart page shows correct items and their names)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutEmptyFormShowsFirstNameError">
+                  </a> <!-- checkoutEmptyFormShowsFirstNameError -->
+                  <span class="method-name">checkoutEmptyFormShowsFirstNameError</span>
+                  <em>
+(Checkout with all empty fields shows First Name required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutEmptyFormShowsFirstNameError">
+                  </a> <!-- checkoutEmptyFormShowsFirstNameError -->
+                  <span class="method-name">checkoutEmptyFormShowsFirstNameError</span>
+                  <em>
+(Checkout with all empty fields shows First Name required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutMissingLastNameShowsError">
+                  </a> <!-- checkoutMissingLastNameShowsError -->
+                  <span class="method-name">checkoutMissingLastNameShowsError</span>
+                  <em>
+(Checkout with missing last name shows Last Name required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutMissingLastNameShowsError">
+                  </a> <!-- checkoutMissingLastNameShowsError -->
+                  <span class="method-name">checkoutMissingLastNameShowsError</span>
+                  <em>
+(Checkout with missing last name shows Last Name required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutMissingPostalCodeShowsError">
+                  </a> <!-- checkoutMissingPostalCodeShowsError -->
+                  <span class="method-name">checkoutMissingPostalCodeShowsError</span>
+                  <em>
+(Checkout with missing postal code shows Postal Code required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutMissingPostalCodeShowsError">
+                  </a> <!-- checkoutMissingPostalCodeShowsError -->
+                  <span class="method-name">checkoutMissingPostalCodeShowsError</span>
+                  <em>
+(Checkout with missing postal code shows Postal Code required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueShoppingReturnsToInventory">
+                  </a> <!-- continueShoppingReturnsToInventory -->
+                  <span class="method-name">continueShoppingReturnsToInventory</span>
+                  <em>
+(Continue Shopping button returns to inventory page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueShoppingReturnsToInventory">
+                  </a> <!-- continueShoppingReturnsToInventory -->
+                  <span class="method-name">continueShoppingReturnsToInventory</span>
+                  <em>
+(Continue Shopping button returns to inventory page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullCheckoutFlowSucceeds">
+                  </a> <!-- fullCheckoutFlowSucceeds -->
+                  <span class="method-name">fullCheckoutFlowSucceeds</span>
+                  <em>
+(Full checkout flow completes with success message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullCheckoutFlowSucceeds">
+                  </a> <!-- fullCheckoutFlowSucceeds -->
+                  <span class="method-name">fullCheckoutFlowSucceeds</span>
+                  <em>
+(Full checkout flow completes with success message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSortingWorks">
+                  </a> <!-- productSortingWorks -->
+                  <span class="method-name">productSortingWorks</span>
+                  <em>
+(Products sort A-Z by default, Z-A reverses order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productSortingWorks">
+                  </a> <!-- productSortingWorks -->
+                  <span class="method-name">productSortingWorks</span>
+                  <em>
+(Products sort A-Z by default, Z-A reverses order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItemFromCartReducesCount">
+                  </a> <!-- removeItemFromCartReducesCount -->
+                  <span class="method-name">removeItemFromCartReducesCount</span>
+                  <em>
+(Remove item from cart page reduces item count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItemFromCartReducesCount">
+                  </a> <!-- removeItemFromCartReducesCount -->
+                  <span class="method-name">removeItemFromCartReducesCount</span>
+                  <em>
+(Remove item from cart page reduces item count)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removingItemDecrementsBadge">
+                  </a> <!-- removingItemDecrementsBadge -->
+                  <span class="method-name">removingItemDecrementsBadge</span>
+                  <em>
+(Removing an item from inventory decrements cart badge)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removingItemDecrementsBadge">
+                  </a> <!-- removingItemDecrementsBadge -->
+                  <span class="method-name">removingItemDecrementsBadge</span>
+                  <em>
+(Removing an item from inventory decrements cart badge)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Parallel_Suite-class-passed -->
+        </div> <!-- panel SauceDemo_Parallel_Suite -->
+        <div panel-name="test-xml-SauceDemo_Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/nguyentuan/Downloads/saucedemo-selenium-java/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;SauceDemo Parallel Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.example.core.ScreenshotListener&quot;/&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.example.tests.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Firefox&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.example.tests.CheckoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemo Parallel Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemo_Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemo Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemo_Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemo Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemo_Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemo Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemo_Parallel_Suite');
+function tableData_SauceDemo_Parallel_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'performanceGlitchUserCanLogin')
+data.setCell(0, 2, 'com.example.tests.LoginTest')
+data.setCell(0, 3, 5389);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'performanceGlitchUserCanLogin')
+data.setCell(1, 2, 'com.example.tests.LoginTest')
+data.setCell(1, 3, 5157);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fullCheckoutFlowSucceeds')
+data.setCell(2, 2, 'com.example.tests.CheckoutTest')
+data.setCell(2, 3, 819);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkoutEmptyFormShowsFirstNameError')
+data.setCell(3, 2, 'com.example.tests.CheckoutTest')
+data.setCell(3, 3, 723);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkoutMissingPostalCodeShowsError')
+data.setCell(4, 2, 'com.example.tests.CheckoutTest')
+data.setCell(4, 3, 637);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkoutMissingLastNameShowsError')
+data.setCell(5, 2, 'com.example.tests.CheckoutTest')
+data.setCell(5, 3, 607);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fullCheckoutFlowSucceeds')
+data.setCell(6, 2, 'com.example.tests.CheckoutTest')
+data.setCell(6, 3, 603);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'removeItemFromCartReducesCount')
+data.setCell(7, 2, 'com.example.tests.CheckoutTest')
+data.setCell(7, 3, 566);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkoutMissingLastNameShowsError')
+data.setCell(8, 2, 'com.example.tests.CheckoutTest')
+data.setCell(8, 3, 525);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkoutMissingPostalCodeShowsError')
+data.setCell(9, 2, 'com.example.tests.CheckoutTest')
+data.setCell(9, 3, 519);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'removingItemDecrementsBadge')
+data.setCell(10, 2, 'com.example.tests.CheckoutTest')
+data.setCell(10, 3, 517);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'cartPageShowsCorrectItems')
+data.setCell(11, 2, 'com.example.tests.CheckoutTest')
+data.setCell(11, 3, 511);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkoutEmptyFormShowsFirstNameError')
+data.setCell(12, 2, 'com.example.tests.CheckoutTest')
+data.setCell(12, 3, 502);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'productSortingWorks')
+data.setCell(13, 2, 'com.example.tests.CheckoutTest')
+data.setCell(13, 3, 495);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'continueShoppingReturnsToInventory')
+data.setCell(14, 2, 'com.example.tests.CheckoutTest')
+data.setCell(14, 3, 480);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addingItemsUpdatesBadgeCount')
+data.setCell(15, 2, 'com.example.tests.CheckoutTest')
+data.setCell(15, 3, 474);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'removeItemFromCartReducesCount')
+data.setCell(16, 2, 'com.example.tests.CheckoutTest')
+data.setCell(16, 3, 455);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'cartPageShowsCorrectItems')
+data.setCell(17, 2, 'com.example.tests.CheckoutTest')
+data.setCell(17, 3, 438);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'removingItemDecrementsBadge')
+data.setCell(18, 2, 'com.example.tests.CheckoutTest')
+data.setCell(18, 3, 421);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addingItemsUpdatesBadgeCount')
+data.setCell(19, 2, 'com.example.tests.CheckoutTest')
+data.setCell(19, 3, 398);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'invalidLoginShouldShowError')
+data.setCell(20, 2, 'com.example.tests.LoginTest')
+data.setCell(20, 3, 371);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validLoginShouldOpenInventory')
+data.setCell(21, 2, 'com.example.tests.LoginTest')
+data.setCell(21, 3, 367);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'continueShoppingReturnsToInventory')
+data.setCell(22, 2, 'com.example.tests.CheckoutTest')
+data.setCell(22, 3, 351);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'productSortingWorks')
+data.setCell(23, 2, 'com.example.tests.CheckoutTest')
+data.setCell(23, 3, 328);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'invalidLoginShouldShowError')
+data.setCell(24, 2, 'com.example.tests.LoginTest')
+data.setCell(24, 3, 299);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'invalidLoginShouldShowError')
+data.setCell(25, 2, 'com.example.tests.LoginTest')
+data.setCell(25, 3, 297);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'invalidLoginShouldShowError')
+data.setCell(26, 2, 'com.example.tests.LoginTest')
+data.setCell(26, 3, 278);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'invalidLoginShouldShowError')
+data.setCell(27, 2, 'com.example.tests.LoginTest')
+data.setCell(27, 3, 269);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'invalidLoginShouldShowError')
+data.setCell(28, 2, 'com.example.tests.LoginTest')
+data.setCell(28, 3, 191);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'invalidLoginShouldShowError')
+data.setCell(29, 2, 'com.example.tests.LoginTest')
+data.setCell(29, 3, 148);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validLoginShouldOpenInventory')
+data.setCell(30, 2, 'com.example.tests.LoginTest')
+data.setCell(30, 3, 146);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'invalidLoginShouldShowError')
+data.setCell(31, 2, 'com.example.tests.LoginTest')
+data.setCell(31, 3, 139);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'invalidLoginShouldShowError')
+data.setCell(32, 2, 'com.example.tests.LoginTest')
+data.setCell(32, 3, 133);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'invalidLoginShouldShowError')
+data.setCell(33, 2, 'com.example.tests.LoginTest')
+data.setCell(33, 3, 132);
+window.suiteTableData['SauceDemo_Parallel_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Parallel_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-SauceDemo_Parallel_Suite">
+              </div> <!-- times-div-SauceDemo_Parallel_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemo_Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemo Parallel Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemo_Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemo_Parallel_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)</span>
+                <span class="method-start">8099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8477 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">8643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(locked_out_user, secret_sauce, Sorry, this user has been locked out)</span>
+                <span class="method-start">10275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10424 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">10896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)</span>
+                <span class="method-start">21240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21540 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">21632 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(standard_user, wrong_password, Username and password do not match)</span>
+                <span class="method-start">22456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">22908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(, secret_sauce, Username is required)</span>
+                <span class="method-start">33994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">34380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(, secret_sauce, Username is required)</span>
+                <span class="method-start">35034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">35627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(standard_user, , Password is required)</span>
+                <span class="method-start">42251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42530 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">42616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(standard_user, , Password is required)</span>
+                <span class="method-start">47723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">48199 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)</span>
+                <span class="method-start">50650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">51012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">performanceGlitchUserCanLogin</span>
+                <span class="method-start">58795 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginShouldShowError(invalid_user, secret_sauce, Username and password do not match)</span>
+                <span class="method-start">59961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60094 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">60445 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">64280 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">performanceGlitchUserCanLogin</span>
+                <span class="method-start">72150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validLoginShouldOpenInventory</span>
+                <span class="method-start">72262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72630 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">72728 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77308 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addingItemsUpdatesBadgeCount</span>
+                <span class="method-start">80303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">80870 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">82370 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cartPageShowsCorrectItems</span>
+                <span class="method-start">88607 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validLoginShouldOpenInventory</span>
+                <span class="method-start">89031 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89119 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89177 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">89230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">89575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutEmptyFormShowsFirstNameError</span>
+                <span class="method-start">100736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingItemsUpdatesBadgeCount</span>
+                <span class="method-start">101213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">101554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">101612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">101885 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutMissingLastNameShowsError</span>
+                <span class="method-start">113573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cartPageShowsCorrectItems</span>
+                <span class="method-start">113917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">114272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">114732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutMissingPostalCodeShowsError</span>
+                <span class="method-start">122163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">122891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutEmptyFormShowsFirstNameError</span>
+                <span class="method-start">126513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">127015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">127307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">continueShoppingReturnsToInventory</span>
+                <span class="method-start">130980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">131551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutMissingLastNameShowsError</span>
+                <span class="method-start">139115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fullCheckoutFlowSucceeds</span>
+                <span class="method-start">139489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">139641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">139923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">140397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productSortingWorks</span>
+                <span class="method-start">148183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">148679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">148767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutMissingPostalCodeShowsError</span>
+                <span class="method-start">151807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">152594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItemFromCartReducesCount</span>
+                <span class="method-start">156556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">157123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">157217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">continueShoppingReturnsToInventory</span>
+                <span class="method-start">165162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removingItemDecrementsBadge</span>
+                <span class="method-start">165349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165513 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">165790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165867 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fullCheckoutFlowSucceeds</span>
+                <span class="method-start">168279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">168883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">169153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">productSortingWorks</span>
+                <span class="method-start">171957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">172552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItemFromCartReducesCount</span>
+                <span class="method-start">174807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">175262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">175568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removingItemDecrementsBadge</span>
+                <span class="method-start">178038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">178460 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

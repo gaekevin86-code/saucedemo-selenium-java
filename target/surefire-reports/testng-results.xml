@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="34" passed="34" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-25T10:20:07 GMT+07:00" name="SauceDemo Parallel Suite" finished-at="2026-05-25T10:23:06 GMT+07:00" duration-ms="178748">
+    <groups>
+    </groups>
+    <test started-at="2026-05-25T10:20:07 GMT+07:00" name="Chrome" finished-at="2026-05-25T10:22:53 GMT+07:00" duration-ms="165977">
+      <class name="com.example.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:07 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:15 GMT+07:00" duration-ms="8059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:15 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:16 GMT+07:00" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sorry, this user has been locked out]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:16 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:16 GMT+07:00" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:16 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:28 GMT+07:00" duration-ms="12591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:28 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:29 GMT+07:00" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:29 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:29 GMT+07:00" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:29 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:41 GMT+07:00" duration-ms="12359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:41 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:42 GMT+07:00" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:42 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:42 GMT+07:00" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:42 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:49 GMT+07:00" duration-ms="7866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:49 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:50 GMT+07:00" duration-ms="278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:50 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:50 GMT+07:00" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:50 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:58 GMT+07:00" duration-ms="8026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:58 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:58 GMT+07:00" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:58 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:58 GMT+07:00" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:20:58 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:06 GMT+07:00" duration-ms="7779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="performanceGlitchUserCanLogin()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:21:06 GMT+07:00" name="performanceGlitchUserCanLogin" description="Performance glitch user eventually logs in successfully" finished-at="2026-05-25T10:21:11 GMT+07:00" duration-ms="5389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceGlitchUserCanLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:21:11 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:12 GMT+07:00" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:21:12 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:20 GMT+07:00" duration-ms="7981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginShouldOpenInventory()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:21:20 GMT+07:00" name="validLoginShouldOpenInventory" description="Standard user logs in and lands on inventory page" finished-at="2026-05-25T10:21:20 GMT+07:00" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginShouldOpenInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@e15b7e8]" started-at="2026-05-25T10:21:20 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:20 GMT+07:00" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.LoginTest -->
+      <class name="com.example.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:20 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:28 GMT+07:00" duration-ms="7571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addingItemsUpdatesBadgeCount()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:28 GMT+07:00" name="addingItemsUpdatesBadgeCount" description="Adding items updates cart badge count" finished-at="2026-05-25T10:21:28 GMT+07:00" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingItemsUpdatesBadgeCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:28 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:28 GMT+07:00" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:28 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:36 GMT+07:00" duration-ms="7736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartPageShowsCorrectItems()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:36 GMT+07:00" name="cartPageShowsCorrectItems" description="Cart page shows correct items and their names" finished-at="2026-05-25T10:21:36 GMT+07:00" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageShowsCorrectItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:36 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:36 GMT+07:00" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:36 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:48 GMT+07:00" duration-ms="11506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutEmptyFormShowsFirstNameError()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:48 GMT+07:00" name="checkoutEmptyFormShowsFirstNameError" description="Checkout with all empty fields shows First Name required error" finished-at="2026-05-25T10:21:49 GMT+07:00" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutEmptyFormShowsFirstNameError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:49 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:49 GMT+07:00" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:21:49 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:01 GMT+07:00" duration-ms="12018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutMissingLastNameShowsError()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:01 GMT+07:00" name="checkoutMissingLastNameShowsError" description="Checkout with missing last name shows Last Name required error" finished-at="2026-05-25T10:22:01 GMT+07:00" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutMissingLastNameShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:01 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:02 GMT+07:00" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:02 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:09 GMT+07:00" duration-ms="7889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutMissingPostalCodeShowsError()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:09 GMT+07:00" name="checkoutMissingPostalCodeShowsError" description="Checkout with missing postal code shows Postal Code required error" finished-at="2026-05-25T10:22:10 GMT+07:00" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutMissingPostalCodeShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:10 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:10 GMT+07:00" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:10 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:18 GMT+07:00" duration-ms="8086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continueShoppingReturnsToInventory()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:18 GMT+07:00" name="continueShoppingReturnsToInventory" description="Continue Shopping button returns to inventory page" finished-at="2026-05-25T10:22:19 GMT+07:00" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShoppingReturnsToInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:19 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:19 GMT+07:00" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:19 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:27 GMT+07:00" duration-ms="7928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fullCheckoutFlowSucceeds()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:27 GMT+07:00" name="fullCheckoutFlowSucceeds" description="Full checkout flow completes with success message" finished-at="2026-05-25T10:22:28 GMT+07:00" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullCheckoutFlowSucceeds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:28 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:28 GMT+07:00" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:28 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:35 GMT+07:00" duration-ms="7783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productSortingWorks()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:35 GMT+07:00" name="productSortingWorks" description="Products sort A-Z by default, Z-A reverses order" finished-at="2026-05-25T10:22:36 GMT+07:00" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSortingWorks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:36 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:36 GMT+07:00" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:36 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:44 GMT+07:00" duration-ms="7788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeItemFromCartReducesCount()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:44 GMT+07:00" name="removeItemFromCartReducesCount" description="Remove item from cart page reduces item count" finished-at="2026-05-25T10:22:44 GMT+07:00" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCartReducesCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:44 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:44 GMT+07:00" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:44 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:53 GMT+07:00" duration-ms="8131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removingItemDecrementsBadge()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:53 GMT+07:00" name="removingItemDecrementsBadge" description="Removing an item from inventory decrements cart badge" finished-at="2026-05-25T10:22:53 GMT+07:00" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removingItemDecrementsBadge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@3cebbb30]" started-at="2026-05-25T10:22:53 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:53 GMT+07:00" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.CheckoutTest -->
+    </test> <!-- Chrome -->
+    <test started-at="2026-05-25T10:20:07 GMT+07:00" name="Firefox" finished-at="2026-05-25T10:23:06 GMT+07:00" duration-ms="178748">
+      <class name="com.example.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:07 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:18 GMT+07:00" duration-ms="10274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:18 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:18 GMT+07:00" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sorry, this user has been locked out]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:18 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:18 GMT+07:00" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:18 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:30 GMT+07:00" duration-ms="11560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:30 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:30 GMT+07:00" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:30 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:30 GMT+07:00" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:30 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:42 GMT+07:00" duration-ms="12125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:42 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:42 GMT+07:00" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:42 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:43 GMT+07:00" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:43 GMT+07:00" name="setUp" finished-at="2026-05-25T10:20:55 GMT+07:00" duration-ms="12096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:55 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:20:55 GMT+07:00" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:55 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:20:55 GMT+07:00" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:20:55 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:07 GMT+07:00" duration-ms="11762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginShouldShowError(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:07 GMT+07:00" name="invalidLoginShouldShowError" description="Invalid credentials show descriptive error message" data-provider="invalidUsers" finished-at="2026-05-25T10:21:07 GMT+07:00" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:07 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:08 GMT+07:00" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:08 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:19 GMT+07:00" duration-ms="11704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="performanceGlitchUserCanLogin()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:19 GMT+07:00" name="performanceGlitchUserCanLogin" description="Performance glitch user eventually logs in successfully" finished-at="2026-05-25T10:21:25 GMT+07:00" duration-ms="5157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceGlitchUserCanLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:25 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:30 GMT+07:00" duration-ms="5061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:30 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:36 GMT+07:00" duration-ms="6660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginShouldOpenInventory()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:36 GMT+07:00" name="validLoginShouldOpenInventory" description="Standard user logs in and lands on inventory page" finished-at="2026-05-25T10:21:36 GMT+07:00" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginShouldOpenInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@1e0b4072]" started-at="2026-05-25T10:21:36 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:37 GMT+07:00" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.LoginTest -->
+      <class name="com.example.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:21:37 GMT+07:00" name="setUp" finished-at="2026-05-25T10:21:48 GMT+07:00" duration-ms="11638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addingItemsUpdatesBadgeCount()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:21:48 GMT+07:00" name="addingItemsUpdatesBadgeCount" description="Adding items updates cart badge count" finished-at="2026-05-25T10:21:49 GMT+07:00" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingItemsUpdatesBadgeCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:21:49 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:21:49 GMT+07:00" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:21:49 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:01 GMT+07:00" duration-ms="12031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartPageShowsCorrectItems()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:01 GMT+07:00" name="cartPageShowsCorrectItems" description="Cart page shows correct items and their names" finished-at="2026-05-25T10:22:02 GMT+07:00" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageShowsCorrectItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:02 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:02 GMT+07:00" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:02 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:14 GMT+07:00" duration-ms="11780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutEmptyFormShowsFirstNameError()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:14 GMT+07:00" name="checkoutEmptyFormShowsFirstNameError" description="Checkout with all empty fields shows First Name required error" finished-at="2026-05-25T10:22:14 GMT+07:00" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutEmptyFormShowsFirstNameError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:14 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:15 GMT+07:00" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:15 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:26 GMT+07:00" duration-ms="11808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutMissingLastNameShowsError()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:26 GMT+07:00" name="checkoutMissingLastNameShowsError" description="Checkout with missing last name shows Last Name required error" finished-at="2026-05-25T10:22:27 GMT+07:00" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutMissingLastNameShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:27 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:27 GMT+07:00" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:27 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:39 GMT+07:00" duration-ms="11883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutMissingPostalCodeShowsError()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:39 GMT+07:00" name="checkoutMissingPostalCodeShowsError" description="Checkout with missing postal code shows Postal Code required error" finished-at="2026-05-25T10:22:40 GMT+07:00" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutMissingPostalCodeShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:40 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:40 GMT+07:00" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:40 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:52 GMT+07:00" duration-ms="12568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="continueShoppingReturnsToInventory()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:52 GMT+07:00" name="continueShoppingReturnsToInventory" description="Continue Shopping button returns to inventory page" finished-at="2026-05-25T10:22:53 GMT+07:00" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShoppingReturnsToInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:53 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:53 GMT+07:00" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:53 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:56 GMT+07:00" duration-ms="2489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fullCheckoutFlowSucceeds()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:56 GMT+07:00" name="fullCheckoutFlowSucceeds" description="Full checkout flow completes with success message" finished-at="2026-05-25T10:22:56 GMT+07:00" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullCheckoutFlowSucceeds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:56 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:22:56 GMT+07:00" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:56 GMT+07:00" name="setUp" finished-at="2026-05-25T10:22:59 GMT+07:00" duration-ms="2803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productSortingWorks()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:22:59 GMT+07:00" name="productSortingWorks" description="Products sort A-Z by default, Z-A reverses order" finished-at="2026-05-25T10:23:00 GMT+07:00" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSortingWorks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:23:00 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:23:00 GMT+07:00" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:23:00 GMT+07:00" name="setUp" finished-at="2026-05-25T10:23:02 GMT+07:00" duration-ms="2254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeItemFromCartReducesCount()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:23:02 GMT+07:00" name="removeItemFromCartReducesCount" description="Remove item from cart page reduces item count" finished-at="2026-05-25T10:23:03 GMT+07:00" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCartReducesCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:23:03 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:23:03 GMT+07:00" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:23:03 GMT+07:00" name="setUp" finished-at="2026-05-25T10:23:05 GMT+07:00" duration-ms="2469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removingItemDecrementsBadge()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:23:05 GMT+07:00" name="removingItemDecrementsBadge" description="Removing an item from inventory decrements cart badge" finished-at="2026-05-25T10:23:06 GMT+07:00" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removingItemDecrementsBadge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.CheckoutTest@791f145a]" started-at="2026-05-25T10:23:06 GMT+07:00" name="tearDown" finished-at="2026-05-25T10:23:06 GMT+07:00" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.CheckoutTest -->
+    </test> <!-- Firefox -->
+  </suite> <!-- SauceDemo Parallel Suite -->
+</testng-results>

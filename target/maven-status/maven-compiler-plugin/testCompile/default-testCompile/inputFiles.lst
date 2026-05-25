@@ -1,0 +1,10 @@
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/core/BaseTest.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/core/Constants.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/core/DriverFactory.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/core/ScreenshotListener.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/pages/CartPage.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/pages/CheckoutPage.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/pages/InventoryPage.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/pages/LoginPage.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/tests/CheckoutTest.java
+/Users/nguyentuan/Downloads/saucedemo-selenium-java/src/test/java/com/example/tests/LoginTest.java
