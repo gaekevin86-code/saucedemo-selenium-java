@@ -37,14 +37,18 @@ public class CartPage {
     }
 
     public void removeItem(String productId) {
-        wait.until(ExpectedConditions.elementToBeClickable(By.id("remove-" + productId))).click();
+        By removeBtn = By.id("remove-" + productId);
+        wait.until(ExpectedConditions.elementToBeClickable(removeBtn)).click();
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(removeBtn));
     }
 
     public void clickCheckout() {
         wait.until(ExpectedConditions.elementToBeClickable(checkoutButton)).click();
+        wait.until(ExpectedConditions.urlContains("checkout-step-one.html"));
     }
 
     public void continueShopping() {
         wait.until(ExpectedConditions.elementToBeClickable(continueShoppingButton)).click();
+        wait.until(ExpectedConditions.urlContains("inventory.html"));
     }
 }

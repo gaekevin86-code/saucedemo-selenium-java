@@ -29,14 +29,17 @@ public class InventoryPage {
 
     public void addBackpack() {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("add-to-cart-sauce-labs-backpack"))).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("remove-sauce-labs-backpack")));
     }
 
     public void addBikeLight() {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("add-to-cart-sauce-labs-bike-light"))).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("remove-sauce-labs-bike-light")));
     }
 
     public void removeBackpack() {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("remove-sauce-labs-backpack"))).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("add-to-cart-sauce-labs-backpack")));
     }
 
     public String cartCount() {
@@ -49,6 +52,7 @@ public class InventoryPage {
 
     public void openCart() {
         wait.until(ExpectedConditions.elementToBeClickable(cartLink)).click();
+        wait.until(ExpectedConditions.urlContains("cart.html"));
     }
 
     public void sortBy(String value) {
